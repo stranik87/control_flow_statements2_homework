@@ -18,5 +18,5 @@ def main(a,b,c):
         print("Uchinchi raqam") 
     return a , b , c
 
-print(main(2,4,6))
+print(main(2,4,1))
 
