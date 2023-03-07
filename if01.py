@@ -8,4 +8,15 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    return
+    if a>b and a>c :
+        print(" Birinchi raqam")
+
+    if b>a and b > c:
+        print("ikkinchi raqam")    
+
+    if c > a and c > b:
+        print("Uchinchi raqam") 
+    return a , b , c
+
+print(main(2,4,6))
+
